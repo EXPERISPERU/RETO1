@@ -16,6 +16,6 @@ class Program
         Console.WriteLine("Impares: [" + string.Join(", ", oddNumbers) + "]");
 
         Console.WriteLine("\nPresiona cualquier tecla para salir...");
-        Console.ReadLine();
+        Console.ReadKey();
     }
 }
